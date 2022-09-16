@@ -1,11 +1,11 @@
-TypeScript "react-query" Demo
+TypeScript "react-query" Cache No-Cache Demo
 =================================
 
-react-query默认进行3次retry，如果不想要，可以把`retry`设为false
+把`cacheTime`设为`0`，好像还是会cache? 不知道问题在哪儿
 
 ```
 npm install
-npm run demo
+npm start
 ```
 
 It will open page on browser automatically.
